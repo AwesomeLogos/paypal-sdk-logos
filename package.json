@@ -1,0 +1,29 @@
+{
+  "name": "pps-logos",
+  "version": "1.0.0",
+  "description": "Logos extracted from @paypal/sdk-logos",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwesomeLogos/paypal-sdk-logos.git"
+  },
+  "keywords": [
+    "logos",
+    "svg-logos",
+    "payment-logos"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AwesomeLogos/paypal-sdk-logos/issues"
+  },
+  "homepage": "https://github.com/AwesomeLogos/paypal-sdk-logos#readme",
+  "dependencies": {
+    "@krakenjs/jsx-pragmatic": "^3.0.0",
+    "@paypal/sdk-logos": "^2.2.7",
+    "ts-node": "^10.9.2"
+  }
+}

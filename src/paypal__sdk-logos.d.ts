@@ -1,0 +1,1 @@
+declare module '@paypal/sdk-logos';
