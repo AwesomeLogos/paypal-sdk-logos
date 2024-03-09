@@ -28,7 +28,6 @@ jobs:
           git config --global user.email "${GITHUB_REPOSITORY#*/}@${GITHUB_REPOSITORY%/*}.github.io"
           git config --global user.name "${GITHUB_JOB} Github Action"
           git remote add deploy git@github.com:${GITHUB_REPOSITORY}.git
-          git checkout main
 
           git commit -a -m "Self-update"
           git push deploy main

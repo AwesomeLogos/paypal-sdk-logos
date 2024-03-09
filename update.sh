@@ -19,4 +19,11 @@ fi
 
 npm install @paypal/sdk-logos@$VERSION
 
-ts-node src/extract.ts
+npx ts-node src/extract.ts
+
+if [ "${GITHUB_ACTIONS:-false}" == "true" ]; then
+    git add docs/images/*.svg
+fi
+
+echo "INFO: complete at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
